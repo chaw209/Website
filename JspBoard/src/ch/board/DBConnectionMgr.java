@@ -40,7 +40,7 @@ public class DBConnectionMgr {
     //目池记钱阑 氦磐肺 备己
 	//private MemberDBMgr mem =null;
     private Vector connections = new Vector(10);
-    /*  MySQL */   
+    /*  MySQL  */   
 	private String _driver = "org.gjt.mm.mysql.Driver",
     _url = "jdbc:mysql://127.0.0.1:3306/mydb?useUnicode=true&characterEncoding=UTF-8",
     _user = "root",
