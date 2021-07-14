@@ -69,7 +69,7 @@ public class DBConnectionMgr {
     //(2)dbmysql.properties파일을 읽어들여서 키->값을 불러오기
     public DBConnectionMgr() throws IOException {
     	Properties props=new Properties();
-    	FileInputStream in=new FileInputStream("C:/KICcampus/JSP/sou/JspBoard1/WebContent/dbtest/dbmysql.properties");
+    	FileInputStream in=new FileInputStream("C:/Users/chaw2/git/Website/JspBoard1/WebContent/dbtest/dbmysql.properties");
     	props.load(in);//파일의 내용을 메모리에 로드
     	in.close();
     	_driver=props.getProperty("jdbc.drivers");
